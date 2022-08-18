@@ -85,7 +85,7 @@ a {
   display: none;
 }
 
-.header__item {
+.item__button {
   cursor: pointer;
   display: flex;
   border: 2px solid #ff3e79;
@@ -93,14 +93,12 @@ a {
   height: 40px;
   width: 40px;
   background: #ff3e79;
-}
-
-.header__button {
   margin: auto;
   background-repeat: no-repeat;
   background-position: center;
 }
-.button_1 {
+
+.menu {
   background-image: url('img/icon.svg');
 }
 .header__logo {
@@ -111,20 +109,20 @@ a {
   background-image: url('img/Group.svg');
 }
 
-.button_2 {
+.phone {
   background-image: url('img/icon2.svg');
 }
-.button_3 {
+.chat {
   background-image: url('img/icon3.svg');
 }
-.button_4 {
+.human {
   background-image: url('img/icon4.svg');
 }
 
-.button_5 {
+.repair {
   background-image: url('img/icon5.svg');
 }
-.button_6 {
+.magnifier {
   background-image: url('img/icon6.svg');
 }
 .header__logo::after {
@@ -222,14 +220,14 @@ a {
   width: 150px;
   margin-left: 8px;
 }
-.about__text_next {
+.text__next {
   cursor: pointer;
   border: 0;
   background-color: white;
   font-family: 'TT Lakes';
   font-weight: 500;
 }
-.about__text_next::before {
+.text__next::before {
   content: url('img/icon7.svg');
   height: 10px;
   width: 7px;
@@ -311,7 +309,7 @@ a {
   .header__right::after {
     display: none;
   }
-  .header__left > .header__menu {
+  .header__left > .item__button {
     display: none;
   }
 
@@ -340,7 +338,7 @@ a {
     margin-left: -16px;
   }
 
-  .header__button {
+  .item__button {
     margin: auto;
     margin-right: 25px;
     background-repeat: no-repeat;
